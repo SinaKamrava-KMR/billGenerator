@@ -1,0 +1,64 @@
+{
+  "Menu": [
+    {
+      "id": 0,
+      "image": "../src/assets/img/hum.jpg",
+      "name": "همبرگر مخصوص",
+      "price": "10,000"
+    },
+    {
+      "id": 1,
+      "image": "../src/assets/img/hum.jpg",
+      "name": "همبرگر معمولی",
+      "price": "8,000"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/img/hum.jpg",
+      "name": "همبرگر مخصوص با قارچ و پنیر",
+      "price": "20,000"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/img/hum.jpg",
+      "name": "همبرگر معمولی با قارچ و پنیر",
+      "price": "10,000"
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/img/sib-.jpg",
+      "name": "سیب زمینی سرخ کرده",
+      "price": "10,000"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/img/sib.jpg",
+      "name": "سیب زمینی سرخ کرده ویژه",
+      "price": "25,000"
+    },
+    {
+      "id": 6,
+      "image": "../src/assets/img/cocacola.jpg",
+      "name": "نوشابه",
+      "price": "5,000"
+    },
+    {
+      "id": 7,
+      "image": "../src/assets/img/cocacola.jpg",
+      "name": "نوشابه رژیمی",
+      "price": "6,000"
+    },
+    {
+      "id": 8,
+      "image": "../src/assets/img/sezar.jpg",
+      "name": " سالاد سزار",
+      "price": "25,000"
+    },
+    {
+      "id": 9,
+      "image": "../src/assets/img/salad.jpg",
+      "name": " سالاد فصل",
+      "price": "8,000"
+    }
+  ]
+}
