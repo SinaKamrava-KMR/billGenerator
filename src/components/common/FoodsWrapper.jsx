@@ -7,6 +7,7 @@ import Loading from "./Loading";
 const request = new Service("http://localhost:3000/");
 
 export default function FoodsWrapper() {
+
   const [foods, setFoods] = useState([]);
 
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function FoodsWrapper() {
 
   return (
     <ul className="foods-wrapper">
+
       {foods.length === 0 && createPortal(<Loading />, document.body)}
 
       {foods.length > 0 &&
@@ -31,7 +33,7 @@ export default function FoodsWrapper() {
             key={i}
             img={food.image}
             title={food.name}
-            basePrice={Number(food.price)}
+            basePrice={food.price}
           />
         ))}
     </ul>
